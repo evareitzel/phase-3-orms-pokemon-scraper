@@ -1,5 +1,9 @@
+
 class Scraper
   attr_accessor :file, :parsed_file, :all_pokemon, :db
+
+  # require 'multipart/post'
+  # Multipart::Post::CompositeReadIO
 
   def initialize(db)
     self.db = db
